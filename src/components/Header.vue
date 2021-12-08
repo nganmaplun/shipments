@@ -10,11 +10,11 @@
        </div>
        <div class="menu">
           <ul>
-             <li><a href="#">Home</a></li>
-             <li><a href="#">About</a></li>
+             <li><router-link to="">Home</router-link></li>
+             <li><router-link to="About">About</router-link></li>
              <li><a href="#">Contact</a></li>
-             <li><a href="#">Login</a></li>
-             <li><a href="#">SignUp</a></li>
+             <li><router-link to="Login">Login</router-link></li>
+             <li><router-link to="Register">Register</router-link></li>
 
           </ul>
        </div>
@@ -27,8 +27,7 @@
 <style>
 header {
       width: 100%;
-      height: 100vh;
-      background: url('~@/assets/background.png')  no-repeat 50% 50%;
+      height: 100px;
       background-size: cover;
 }
 
