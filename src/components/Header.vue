@@ -12,7 +12,7 @@
           <ul>
              <li><router-link to="">Home</router-link></li>
              <li><router-link to="About">About</router-link></li>
-             <li><a href="#">Contact</a></li>
+             <li><router-link to="Todo">Todo</router-link></li>
              <li><router-link to="Login">Login</router-link></li>
              <li><router-link to="Register">Register</router-link></li>
 
